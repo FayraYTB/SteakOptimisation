@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PC Optimizer Pro — Nettoyage et optimisation Windows gratuit" />
+  <title>PC Optimizer Pro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ─────────────────────────────────────────────────────────── -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">PC Optimizer <span class="accent">Pro</span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#features">Fonctionnalités</a>
+        <a href="#how">Comment ça marche</a>
+        <a href="#download" class="btn-nav">Télécharger</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="container">
+      <div class="badge">✨ Version 2.0 — Gratuit</div>
+      <h1>Optimise ton PC<br /><span class="gradient-text">en un seul clic</span></h1>
+      <p class="hero-sub">
+        Libère de l'espace disque, vide les fichiers temporaires, nettoie le cache DNS
+        et accélère Windows — le tout avec une interface moderne et intuitive.
+      </p>
+      <div class="hero-actions">
+        <a href="https://github.com/SteakOptimisation/pc-optimizer/releases/latest/download/PC_Optimizer_Pro.exe"
+           class="btn-primary" id="download">
+          <span class="btn-icon">⬇️</span>
+          Télécharger gratuitement
+          <span class="btn-sub">Windows 10 / 11 — ~10 Mo</span>
+        </a>
+        <a href="https://github.com/SteakOptimisation/pc-optimizer" class="btn-secondary" target="_blank">
+          Voir sur GitHub →
+        </a>
+      </div>
+      <div class="hero-meta">
+        <span>🔒 Aucun virus • Open source</span>
+        <span>⚡ Mise à jour automatique</span>
+        <span>🆓 100% gratuit</span>
+      </div>
+    </div>
+
+    <!-- Aperçu de l'app -->
+    <div class="app-preview">
+      <div class="preview-window">
+        <div class="preview-titlebar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="preview-title">PC Optimizer Pro</span>
+        </div>
+        <div class="preview-body">
+          <div class="preview-sidebar">
+            <div class="preview-section-label">SYSTÈME</div>
+            <div class="preview-check checked">🗑️ Temp Windows</div>
+            <div class="preview-check checked">👤 Temp Utilisateur</div>
+            <div class="preview-check checked">⚡ Prefetch</div>
+            <div class="preview-check checked">♻️ Corbeille</div>
+            <div class="preview-check checked">🌐 Cache DNS</div>
+            <div class="preview-section-label mt">AVANCÉ</div>
+            <div class="preview-check">📋 Journaux</div>
+            <div class="preview-check">🖼️ Miniatures</div>
+            <div class="preview-disk">
+              <div class="preview-disk-label">DISQUE C:</div>
+              <div class="preview-disk-bar"><div class="preview-disk-fill"></div></div>
+              <div class="preview-disk-text">Libre : 45.2 Go / 500 Go</div>
+            </div>
+          </div>
+          <div class="preview-log">
+            <div class="preview-log-label">JOURNAL D'ACTIVITÉ</div>
+            <div class="log-line title">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+            <div class="log-line title">⚡ DÉMARRAGE DE L'OPTIMISATION</div>
+            <div class="log-line title">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+            <div class="log-line title">▶ Fichiers temporaires Windows</div>
+            <div class="log-line success">✓ Temp0023.tmp</div>
+            <div class="log-line success">✓ WER4521.tmp</div>
+            <div class="log-line title">▶ Cache DNS</div>
+            <div class="log-line success">✓ Cache DNS vidé.</div>
+            <div class="log-line title">▶ Corbeille</div>
+            <div class="log-line success">✓ Corbeille vidée.</div>
+            <div class="log-line title">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
+            <div class="log-line success">✅ TERMINÉ — 1.2 Go libérés</div>
+          </div>
+        </div>
+        <div class="preview-footer">
+          <div class="preview-btn">▶ LANCER L'OPTIMISATION</div>
+          <div class="preview-status">● Terminé ✅</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS ──────────────────────────────────────────────────────────── -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <div class="stat-num">7</div>
+        <div class="stat-label">Types de nettoyage</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">1 clic</div>
+        <div class="stat-label">Pour optimiser</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">Auto</div>
+        <div class="stat-label">Mises à jour</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">0€</div>
+        <div class="stat-label">Prix</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURES ───────────────────────────────────────────────────────── -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Tout ce dont tu as besoin</h2>
+        <p>Un outil complet pour garder ton PC rapide et propre</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🗑️</div>
+          <h3>Fichiers temporaires</h3>
+          <p>Supprime les fichiers temp de Windows et de l'utilisateur qui s'accumulent et ralentissent le PC.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Prefetch Windows</h3>
+          <p>Nettoie le dossier Prefetch pour libérer de l'espace et améliorer les performances au démarrage.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">♻️</div>
+          <h3>Corbeille</h3>
+          <p>Vide automatiquement toutes les corbeilles du système en un seul clic.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌐</div>
+          <h3>Cache DNS</h3>
+          <p>Vide le cache DNS pour résoudre les problèmes de connexion et accélérer la navigation.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📋</div>
+          <h3>Journaux d'événements</h3>
+          <p>Nettoie les journaux Application, Système et Sécurité de Windows.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🖼️</div>
+          <h3>Cache miniatures</h3>
+          <p>Supprime les fichiers thumbcache qui peuvent grossir avec le temps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOW IT WORKS ───────────────────────────────────────────────────── -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-header">
+        <h2>Simple comme bonjour</h2>
+        <p>Trois étapes et c'est parti</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h3>Télécharge</h3>
+            <p>Clique sur le bouton de téléchargement et installe l'application en un double-clic.</p>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h3>Sélectionne</h3>
+            <p>Coche les éléments que tu veux nettoyer parmi les 7 options disponibles.</p>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h3>Lance</h3>
+            <p>Clique sur "Lancer l'optimisation" et regarde le journal en temps réel.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DOWNLOAD CTA ───────────────────────────────────────────────────── -->
+  <section class="cta" id="download">
+    <div class="container cta-inner">
+      <div class="cta-glow"></div>
+      <h2>Prêt à optimiser ton PC ?</h2>
+      <p>Gratuit, open source, sans pub. Télécharge maintenant.</p>
+      <a href="https://github.com/SteakOptimisation/pc-optimizer/releases/latest/download/PC_Optimizer_Pro.exe"
+         class="btn-primary large">
+        <span class="btn-icon">⬇️</span>
+        Télécharger PC Optimizer Pro
+        <span class="btn-sub">Windows 10 / 11 — Gratuit</span>
+      </a>
+      <div class="cta-note">
+        Nécessite Windows 10 ou 11 • Droits administrateur requis
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span class="logo-icon">⚡</span>
+        PC Optimizer Pro
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/SteakOptimisation/pc-optimizer" target="_blank">GitHub</a>
+        <a href="https://github.com/SteakOptimisation/pc-optimizer/releases" target="_blank">Releases</a>
+        <a href="https://github.com/SteakOptimisation/pc-optimizer/issues" target="_blank">Signaler un bug</a>
+      </div>
+      <div class="footer-copy">© 2026 PC Optimizer Pro — Open Source</div>
+    </div>
+  </footer>
+
+  <script>
+    // Remplace SteakOptimisation dans tous les liens si localStorage a la valeur
+    // (mis à jour automatiquement par publish_github.bat)
+    const ghUser = "SteakOptimisation";
+    if (ghUser !== "SteakOptimisation") {
+      document.querySelectorAll("a[href*='SteakOptimisation']").forEach(a => {
+        a.href = a.href.replace(/SteakOptimisation/g, ghUser);
+      });
+    }
+
+    // Animation du compteur de stats
+    document.addEventListener("DOMContentLoaded", () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) e.target.classList.add("visible");
+        });
+      }, { threshold: 0.1 });
+      document.querySelectorAll(".feature-card, .stat-card, .step")
+              .forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>

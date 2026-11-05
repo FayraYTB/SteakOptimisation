@@ -1,0 +1,11 @@
+{
+  "version": "2.0",
+  "release_date": "2026-11-05",
+  "download_url": "https://github.com/SteakOptimisation/pc-optimizer/releases/latest/download/PC_Optimizer_Pro.exe",
+  "changelog": [
+    "Interface noir et bleu redessinée",
+    "Boutons modernes avec effet hover",
+    "Checkboxes personnalisées",
+    "Système de mise à jour automatique"
+  ]
+}
